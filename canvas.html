@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas</title>
+</head>
+<body>
+<canvas id = "myCanvas" width="600" height="600">
+
+</canvas>
+  <script>
+    window.addEventListener('click', draw);
+    function draw(){
+      var canvas = document.getElementById('myCanvas');
+      var ctx = canvas.getContext('2d');
+      ctx.fillStyle="blue";
+      // "void ctx.fillRect(x, y, width, height);"
+      ctx.fillRect(100, 100, 30, 30);
+
+      var ctx2 = canvas.getContext('2d');
+      ctx2.fillStyle="red";
+      ctx2.fillRect(132, 100, 30, 30);
+
+      var ctx3 = canvas.getContext('2d');
+      ctx3.fillStyle="yellow";
+      ctx3.fillRect(164, 100, 30, 30);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Geo</title>
+</head>
+<body>
+
+  <script>navigator.geolocation.getCurrentPosition(function(loc)  {
+      var div = document.createElement('div');
+      var body = document.getElementsByTagName("BODY")[0];
+      //console.log(loc.coords.latitude + ', ' + loc.coords.longitude + ', ' + loc.coords.accuracy);
+      div.innerHTML += "<div>" + loc.coords.latitude + "</div>";
+      body.appendChild(div);
+      console.log(body);
+  })
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.content-box {
+  background-color: #EBEBEB;
+  border-radius: 5px;
+  width: 780px;
+}
+
+.content-box .header {
+  color: #ED652E;
+}
+
+.secondary {
+  width: 220px;
+}
+/*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,46 @@
+primary-orange: #ED652E;
+primary-grey: #EBEBEB;
+
+h1 {
+  color: #ed652e;
+}
+div.content {
+  color: #ed652e;
+}
+.header {
+  background-color: #EBEBEB;
+}
+.footer {
+  background-color: #EBEBEB;
+}
+
+content-width: 780px;
+total-width: 1000px;
+
+div.content {
+  width: content-width;
+}
+div.secondary {
+  width: total-width - content-width;
+}
+
+.box {
+  mixin-border-radius(10px);
+}
+
+mixin-border-radius(radius) {
+  -webkit-border-radius: radius;
+  -moz-border-radius: radius;
+  -ms-border-radius: radius;
+  -o-border-radius: radius;
+  border-radius: radius;
+}
+
+.content {
+  color: #555;
+  span {
+    padding: 3 px;
+  }
+  h3 {
+    margin-top: 2px;
+}

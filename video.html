@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video API</title>
+</head>
+<body>
+  <video controls>
+    <source src="maid.mp4" type="video/mp4">
+    <source src="maid.ogg" type="video/ogg">
+  </video>
+
+  <script>
+    var video;
+//    window.addEventListener('load', init, false);
+//    window.addEventListener('click', playPause, false);
+    function init() {
+      video = document.getElementsByTagName('video')[0];
+      video.play();
+    }
+    function playPause() {
+      if(video.paused) {
+        video.play();
+      }else {
+        video.pause();
+      }
+    }
+  </script>
+</body>
+</html>
