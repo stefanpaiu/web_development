@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .rotate-135 {
+        -webkit-transform: rotate(135deg);
+      }
+    </style>
+  </head>
+
+  <body class="container">
+    <div class="navbar">
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">My Site</a>
+
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#">Menu 1<i class="fa fa-caret-down"></i></a>
+          </li>
+
+          <li>
+            <a href="#">Menu 2 <i class="fa fa-arrow-down"></i></a>
+          </li>
+
+          <li>
+            <a href="#">Menu 3 <i class="fa fa-caret-square-o-down"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <ol class="breadcrumb">
+      <li>
+        <a href="/"><i class="fa fa-home"></i>Home</a>
+      </li>
+
+      <li class="active">Welcome</li>
+    </ol>
+
+    <div class="jumbotron">
+      <h1><i class="fa fa-html5 fa-2x text-primary"></i> This is My Site</h1>
+    </div>
+
+    <div class="content">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card">
+            <div class="card-body">
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+          </div>
+
+          <table class="table table-bordered table-striped">
+            <thead>
+              <th>Name</th>
+
+              <th>Age</th>
+
+              <th>State</th>
+
+              <th>Registered</th>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>John</td>
+
+                <td>18</td>
+
+                <td>WI</td>
+
+                <td><i class="fa fa-check-square"></i></td>
+              </tr>
+
+              <tr>
+                <td>Sarah</td>
+
+                <td>25</td>
+
+                <td>IN</td>
+
+                <td><i class="fa fa-square"></i></td>
+              </tr>
+
+              <tr>
+                <td>Julie</td>
+
+                <td>22</td>
+
+                <td>NY</td>
+
+                <td><i class="fa fa-square"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="email">Email</label>
+
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                  />
+                </div>
+
+                <button class="btn btn-default" type="submit">
+                  <span class="fa-stack">
+                    <i class="fa fa-square fa-stack-2x"></i>
+
+                    <i class="fa fa-save fa-stack-1x fa-inverse"></i>
+                  </span>
+
+                  Save
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center"><p>&copy; My-Company</p></footer>
+  </body>
+</html>
