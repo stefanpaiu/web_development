@@ -1,0 +1,16 @@
+<course>
+	<id>25</id>
+	<title>Why XML Sucks</title>
+	<description>This course will help you to master the universe.</description>
+	<author>Joe Eames</author>
+	<modules>
+		<module>
+			<title>Angle Bracket Hell</title>
+			<length>34:21</length>
+		</module>
+		<module>
+			<title>Ginormous Payloads</title>
+			<length>23:55</length>
+		</module>
+	</modules>
+</course>

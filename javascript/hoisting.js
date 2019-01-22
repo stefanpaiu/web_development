@@ -25,7 +25,7 @@ var functionTwo = function () {
 // Callbacks - happen after all waiting tasks in the queue are finished
 //.....................................................................
 
-const request = require(‘request’);
+const request = require('request');
 request('https://www.somepage.com', function (error, response, body) {
     if (error) {
         // Handle error.
@@ -35,7 +35,7 @@ request('https://www.somepage.com', function (error, response, body) {
     }
 });
 
-const request = require(‘request’);
+const request = require('request');
 function handleResponse(error, response, body) {
     if (error) {
         // Handle error.
@@ -84,7 +84,7 @@ const axios = require('axios');
 axios.get('http://www.somepage.com')
     .then(function (response) { // Reponse being the result of the first request
         // Returns another promise to the next .then(..) in the chain
-        return axios.get(`http://www.somepage.com/${response.someValue}`);
+        return axios.get('http://www.somepage.com/${response.someValue}');
     })
     .then(function response { // Reponse being the result of the second request
         // Handle response
